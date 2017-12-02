@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="dgs.example.pungkook.dgs_android.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_index"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/space_10">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/space_27"
+                    android:paddingTop="@dimen/space_27">
+
+                    <com.daniribalbert.customfontlib.views.CustomFontTextView
+                        android:id="@+id/txt_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/txt_target"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_48"
+                        app:font="Roboto_Medium" />
+
+                    <com.daniribalbert.customfontlib.views.CustomFontTextView
+                        android:id="@+id/txt_value_target"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_9"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_66"
+                        app:font="Roboto_Medium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/space_27"
+                    android:paddingTop="@dimen/space_27">
+
+                    <com.daniribalbert.customfontlib.views.CustomFontTextView
+                        android:id="@+id/xt_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/txt_counter"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_48"
+                        app:font="Roboto_Medium" />
+
+                    <com.daniribalbert.customfontlib.views.CustomFontTextView
+                        android:id="@+id/txt_value_counter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_9"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_66"
+                        app:font="Roboto_Medium" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_014"
+                android:paddingRight="@dimen/space_014"
+                android:paddingBottom="@dimen/space_0"
+                android:paddingTop="@dimen/space_0">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/chart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </com.github.mikephil.charting.charts.PieChart>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

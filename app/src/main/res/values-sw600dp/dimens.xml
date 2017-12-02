@@ -1,0 +1,44 @@
+<resources>
+
+    <dimen name="size_text_drawable">20sp</dimen>
+    <dimen name="size_text_list_drawable">28sp</dimen>
+    <dimen name="size_text_bangdiem">15sp</dimen>
+    <dimen name="nav_header_height">220dp</dimen>
+    <dimen name="main_header_height">200dp</dimen>
+
+    <dimen name="profile_padding_top">7.5dp</dimen>
+    <dimen name="navigation_icon_padding_righ">7.5dp</dimen>
+
+    <dimen name="font_30">12sp</dimen>
+    <dimen name="font_36">16sp</dimen>
+    <dimen name="font_40">17.3sp</dimen>
+    <dimen name="font_42">18sp</dimen>
+    <dimen name="font_48">20sp</dimen>
+    <dimen name="font_54">22sp</dimen>
+    <dimen name="font_56">24sp</dimen>
+    <dimen name="font_66">26sp</dimen>
+    <dimen name="font_72">28sp</dimen>
+
+    <dimen name="space_00">-4.5dp</dimen>
+    <dimen name="space_0">55.5dp</dimen>
+    <dimen name="space_02">29.5dp</dimen>
+    <dimen name="space_03">55dp</dimen>
+    <dimen name="space_07">11.5dp</dimen>
+    <dimen name="space_08">71.5dp</dimen>
+    <dimen name="space_09">19.5dp</dimen>
+    <dimen name="space_010">29.5dp</dimen>
+    <dimen name="space_011">17.5dp</dimen>
+    <dimen name="space_013">18dp</dimen>
+    <dimen name="space_015">15.5dp</dimen>
+    <dimen name="space_014">75.5dp</dimen>
+    <dimen name="space_0014">45.5dp</dimen>
+    <dimen name="space_016">29.5dp</dimen>
+    <dimen name="space_020">75.5dp</dimen>
+    <dimen name="space_021">45.5dp</dimen>
+    <dimen name="space_022">46.5dp</dimen>
+    <dimen name="space_023">53.5dp</dimen>
+    <dimen name="space_027">54.5dp</dimen>
+    <dimen name="space_032">58.5dp</dimen>
+    <dimen name="space_033">72.5dp</dimen>
+
+</resources>

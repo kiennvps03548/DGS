@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/space_12">
+
+    <LinearLayout
+        android:id="@+id/bg_noclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialogradis"
+        android:orientation="vertical"
+        android:padding="@dimen/space_23">
+
+        <LinearLayout
+            android:id="@+id/noclick1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_12"
+            android:paddingRight="@dimen/space_12">
+
+            <com.daniribalbert.customfontlib.views.CustomFontTextView
+                android:id="@+id/textView_titles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:minWidth="@dimen/space_250"
+                android:paddingBottom="@dimen/space_16"
+                android:paddingTop="@dimen/space_16"
+                android:text="@string/txt_dialog_title"
+                android:textColor="@color/colorTab_orange"
+                android:textSize="@dimen/font_66"
+                app:font="Roboto_Bold" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/button_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_close" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e6e6e6" />
+
+        <ListView
+            android:id="@+id/mLiBuoiHoc"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:choiceMode="singleChoice"
+            android:listSelector="@color/white"
+            android:state_selected="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

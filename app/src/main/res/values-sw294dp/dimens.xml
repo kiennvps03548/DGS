@@ -1,0 +1,5 @@
+<resources>
+    <!--Screen size 5 inch (mdpi)
+    (Galaxy j3,zenfone 5)-->
+    <dimen name="size_text_bangdiem">7sp</dimen>
+</resources>

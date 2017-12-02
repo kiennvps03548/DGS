@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">DGS</string>
+
+    <string name="title_tab_input">Input</string>
+    <string name="title_tab_output">Output</string>
+    <string name="title_tab_set_plan">Set Plan</string>
+    <string name="title_tab_report">Report</string>
+
+    <string name="hint_wifi_name">Wifi name</string>
+    <string name="hint_wifi_pass">Password</string>
+    <string name="hint_code">Code</string>
+    <string name="txt_save">Save</string>
+
+    <string name="txt_server">Sever</string>
+    <string name="txt_machine_id">Machine id</string>
+    <string name="txt_factory_id">Factory id</string>
+    <string name="txt_machine_type">Machine type</string>
+    <string name="txt_counting_rate">Counting rate</string>
+    <string name="txt_set_count">Set count</string>
+    <string name="txt_time_setup">Time setup</string>
+    <string name="txt_signal_sensor">Signal sensor</string>
+    <string name="txt_signal_speed">Signal speed</string>
+    <string name="txt_signal_delay">Signal delay</string>
+    <string name="txt_machine">Machine name</string>
+
+    <string name="txt_high">High</string>
+    <string name="txt_alow">Alow</string>
+    <string name="txt_medium">Medium</string>
+
+    <string name="txt_dialog_title">Notification</string>
+
+    <string name="txt_dialog_accept">Yes</string>
+    <string name="txt_dialog_cancel">No</string>
+    <string name="hint_dialog">Enter Value</string>
+    <string name="txt_loading">Loading</string>
+
+    <string name="txt_target">Target</string>
+    <string name="txt_counter">Counter</string>
+
+    <string name="hint_edt_date">Enter Date</string>
+
+
+    <string name="txt_item_view_detail">View detail</string>
+    <string name="txt_history">History</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txt_title_list_history">List History</string>
+
+
+
+    <string name="txt_name_working_time">Working Time</string>
+    <string name="txt_name_working_target">Working Target Hours</string>
+</resources>

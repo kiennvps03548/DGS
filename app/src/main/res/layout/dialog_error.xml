@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/space_12">
+
+    <LinearLayout
+        android:id="@+id/bg_noclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialogradis"
+        android:orientation="vertical"
+        android:padding="@dimen/space_27">
+
+        <LinearLayout
+            android:id="@+id/noclick1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_12"
+            android:paddingRight="@dimen/space_12">
+
+            <com.daniribalbert.customfontlib.views.CustomFontTextView
+                android:id="@+id/textView_titles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:minWidth="@dimen/space_250"
+                android:paddingBottom="@dimen/space_16"
+                android:paddingTop="@dimen/space_16"
+                android:text="@string/txt_dialog_title"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_66"
+                app:font="Roboto_Bold" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/button_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_close" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/navigation_icon_padding_left"
+            android:layout_marginRight="@dimen/navigation_icon_padding_left"
+            android:background="#e6e6e6" />
+
+
+        <com.daniribalbert.customfontlib.views.CustomFontTextView
+            android:id="@+id/txt_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="@dimen/space_12"
+            android:stateListAnimator="@null"
+            android:text="Login failed"
+            android:textSize="@dimen/font_54"
+            app:font="Roboto_Light" />
+
+        <com.daniribalbert.customfontlib.views.CustomFontTextView
+            android:id="@+id/txt_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="@dimen/space_12"
+            android:stateListAnimator="@null"
+            android:text="You must enter Correct information login"
+            android:textSize="@dimen/font_54"
+            app:font="Roboto_Light" />
+
+        <com.daniribalbert.customfontlib.views.CustomFontButton
+            android:id="@+id/btn_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_37"
+            android:background="@drawable/bg_buttonred"
+            android:paddingBottom="@dimen/space_5"
+            android:paddingTop="@dimen/space_5"
+            android:elevation="3dp"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_56"
+            app:font="Roboto_Bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "225460441532",
+    "project_id": "dgs-android"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225460441532:android:b2322230565c3b0a",
+        "android_client_info": {
+          "package_name": "com.example.djs.djsandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225460441532-jls19i58tnsgsaogvupr3qv36c8qh88i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRq7I3pGLm0AE0frAIui6OzdXzKwCkRXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225460441532:android:fb33c0a61fa8b399",
+        "android_client_info": {
+          "package_name": "dgs.example.pungkook.dgs_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225460441532-jls19i58tnsgsaogvupr3qv36c8qh88i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRq7I3pGLm0AE0frAIui6OzdXzKwCkRXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

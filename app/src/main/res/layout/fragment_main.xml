@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="dgs.example.pungkook.dgs_android.fragment.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                app:tabIndicatorColor="@color/colorTab_orange"
+                app:tabSelectedTextColor="@color/colorTab_orange"
+                android:paddingTop="@dimen/space_21"
+                app:tabTextAppearance="@style/TextTabLayout"
+                app:tabTextColor="@color/colorTab_blue" />
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:padding="@dimen/space_010"
+            android:layout_height="wrap_content">
+
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+</LinearLayout>

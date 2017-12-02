@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_array_tile">
+        <item>Change Location</item>
+        <item>Reference Infomation</item>
+        <item>Maintenance History</item>
+        <item>Tool Management</item>
+        <item>Create Check List</item>
+        <item>Setting</item>
+
+    </string-array>
+    <!--<integer-array name="navigation_array_icon">
+        <item>@drawable/ic_bangdiem</item>
+        <item>@drawable/ic_diemdanh</item>
+        <item>@drawable/ic_giaovien</item>
+         <item>@drawable/ic_solienlac_dientu</item>
+         <item>@drawable/ic_thoikhoabieu</item>
+        <item>@drawable/ic_thietlap</item>
+
+    </integer-array>-->
+
+    <string-array name="aray_buoihoc">
+        <item>Sáng</item>
+        <item>Chiều</item>
+    </string-array>
+    <string-array name="aray_attach">
+        <item>Máy ảnh</item>
+        <item>Bộ sưu tập</item>
+    </string-array>
+    <string-array name="aray_typesearch">
+        <item>Giáo viên</item>
+        <item>Môn học</item>
+    </string-array>
+    <string-array name="anphabe_colors">
+        <item>#00bfa5</item>
+        <item>#6200ea</item>
+        <item>#ffd600</item>
+        <item>#304ffe</item>
+        <item>#64dd17</item>
+        <item>#c51162</item>
+        <item>#2962ff</item>
+        <item>#00c853</item>
+        <item>#ffab00</item>
+        <item>#0091ea</item>
+        <item>#3e2723</item>
+        <item>#304ffe</item>
+        <item>#d50000</item>
+        <item>#aeea00</item>
+        <item>#263238</item>
+        <item>#dd2c00</item>
+        <item>#212121</item>
+        <item>#ff6d00</item>
+        <item>#00b8d4</item>
+        <item>#00bfa5</item>
+        <item>#6200ea</item>
+        <item>#ffd600</item>
+        <item>#64dd17</item>
+        <item>#aa00ff</item>
+        <item>#c51162</item>
+        <item>#2962ff</item>
+        <item>#3F4447</item>
+    </string-array>
+    <array name="colors">
+        <item>@color/color_1</item>
+        <item>@color/color_2</item>
+        <item>@color/color_3</item>
+        <item>@color/color_4</item>
+        <item>@color/color_5</item>
+        <item>@color/color_6</item>
+        <item>@color/color_7</item>
+        <item>@color/color_8</item>
+        <item>@color/color_9</item>
+        <item>@color/color_10</item>
+        <item>@color/color_11</item>
+    </array>
+</resources>

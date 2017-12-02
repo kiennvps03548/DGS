@@ -1,0 +1,8 @@
+<resources>
+
+    <!--for Screen 5 > 6 inch
+    Note 5-->
+    <dimen name="size_text_drawable">20sp</dimen>
+    <dimen name="size_text_list_drawable">30sp</dimen>
+    <dimen name="size_text_bangdiem">5sp</dimen>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/space_12">
+
+    <LinearLayout
+        android:id="@+id/bg_noclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialogradis"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_15"
+        android:paddingLeft="@dimen/space_0014"
+        android:paddingRight="@dimen/space_0014"
+        android:paddingTop="@dimen/space_9">
+
+        <LinearLayout
+            android:id="@+id/noclick1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_12"
+            android:paddingRight="@dimen/space_12">
+
+            <com.daniribalbert.customfontlib.views.CustomFontTextView
+                android:id="@+id/textView_titles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:minWidth="@dimen/space_250"
+                android:paddingBottom="@dimen/space_16"
+                android:paddingTop="@dimen/space_16"
+                android:text="@string/txt_dialog_title"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="@dimen/font_66"
+                app:font="Roboto_Bold" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/button_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_close" />
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/viewMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/space_15">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_15"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/space_5"
+                        android:layout_weight="1.2"
+                        android:background="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_nfc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:checked="true"
+                        android:src="@drawable/icon_nfc" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/space_5"
+                        android:layout_weight="1.3"
+                        android:background="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/img_qr_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:checked="false"
+                        android:src="@drawable/icon_scan_qr" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/space_5"
+                        android:layout_weight="1.2"
+                        android:background="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_50"
+                    android:orientation="vertical">
+
+                    <com.daniribalbert.customfontlib.views.CustomFontTextView
+                        android:id="@+id/txtIdNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/space_16"
+                        android:text="Please choice qr code or nfc "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_40"
+                        app:font="Roboto_Regular" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/dark_gray" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/navigation_icon_padding_left"
+            android:layout_marginRight="@dimen/navigation_icon_padding_left"
+            android:background="#e6e6e6" />
+
+
+    </LinearLayout>
+</LinearLayout>
